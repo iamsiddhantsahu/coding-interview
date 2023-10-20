@@ -19,7 +19,7 @@ from math import sqrt
 
 class Solution:
     def maximumDetonation(self, bombs: List[List[int]]) -> int:
-        adj = collections.defaultdict(list) # bomb -> [list of bombs]
+        adj = defaultdict(list) # bomb -> [list of bombs]
         for i in range(len(bombs)):
             for j in range(i + 1, len(bombs)):
                 x1, y1, r1 = bombs[i]

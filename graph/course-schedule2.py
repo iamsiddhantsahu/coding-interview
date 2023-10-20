@@ -29,6 +29,8 @@
 
 # https://www.youtube.com/watch?v=Akt3glAwyfY
 
+from typing import List
+
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]: 
         # build adjacency list of prereqs
