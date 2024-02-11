@@ -31,6 +31,7 @@
 # Total of cherries: 17 + 11 = 28.
 
 from typing import List
+from itertools import product
 
 class Solution:
     def cherryPickup_1(self, grid: List[List[int]]) -> int:
